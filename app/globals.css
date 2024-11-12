@@ -1,0 +1,1061 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+/* ******************************* Navbar ******************************* */
+
+:root {
+  --main-color: #207561;
+  --text-color: #666666;
+}
+
+nav {
+  width: 100%;
+  padding: 0px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: 360;
+}
+
+.nav-bar ul li:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+/* ========================= End ========================= */
+
+/* ******************************* Header ******************************* */
+
+
+.responsive-header{
+  display: none;
+}
+
+
+header {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f9fa;
+  align-items: center;
+  
+}
+
+.header-left {
+  margin: auto;
+  padding-left: 100px;
+  width: 50%;
+}
+
+.header-left h1 span {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.header-left h1 {
+  font-size: 55px;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 60px;
+}
+
+.header-left p {
+  font-size: 22px;
+  word-spacing: 14px;
+  letter-spacing: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header-left button {
+  border: 2px solid var(--main-color);
+  padding: 6px 28px;
+  border-radius: 20px;
+  color: var(--main-color);
+  margin: 20px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all ease 0.5s;
+}
+
+.header-left button:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.header-right {
+  width: 50%;
+
+}
+
+
+/* ========================= End ========================= */
+
+/* ******************************* Services ******************************* */
+
+.services h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 110px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.services-main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+
+
+
+.services-left {
+  width: 40%;
+  margin: 10px;
+}
+
+.services-contant-ui_ux {
+  border: 1px solid #f9f9f9;
+  padding: 30px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  background-color: rgb(236, 235, 234);
+  height: 200px;
+}
+
+.services-contant-ui_ux h2 {
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.services-contant-ui_ux p {
+  color: var(--text-color);
+}
+
+.services-contant-ui_ux:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ******************** */
+
+.services-contant-design {
+  border: 1px solid #f9f9f9;
+  padding: 30px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  margin-top: 20px;
+  background-color: rgb(236, 235, 234);
+  height: 200px;
+}
+
+.services-contant-design h2 {
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.services-contant-design p {
+  color: var(--text-color);
+}
+
+.services-contant-design:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ************************** */
+
+.services-right {
+  width: 40%;
+  margin: 10px;
+}
+
+/* ****** */
+
+.services-contant-web-development {
+  border: 1px solid #f9f9f9;
+  padding: 30px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  background-color: rgb(236, 235, 234);
+  height: 200px;
+}
+
+.services-contant-web-development h2 {
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.services-contant-web-development p {
+  color: var(--text-color);
+}
+
+.services-contant-web-development:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ******************* */
+
+.services-contant-web-design {
+  border: 1px solid #f9f9f9;
+  padding: 30px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  margin-top: 20px;
+  background-color: rgb(236, 235, 234);
+  height: 200px;
+}
+
+.services-contant-web-design h2 {
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.services-contant-web-design p {
+  color: var(--text-color);
+}
+
+.services-contant-web-design:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ========================= End ========================= */
+
+/* ******************************* Project ******************************* */
+
+.project{
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+
+
+.project h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 110px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.line-1,
+.line-2 ,
+.line-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+ 
+ 
+}
+
+
+.line-2 {
+  padding-top: 40px;
+}
+
+.line-3 {
+  padding-top: 40px;
+}
+
+
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 ,
+.project-7{
+  width: 300px;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; height: 300px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+
+
+
+
+.project-1:hover,
+.project-2:hover,
+.project-3:hover,
+.project-4:hover,
+.project-5:hover,
+.project-6:hover,
+.project-7:hover {
+  opacity: 0.8;
+  transform: translateY(-10px);
+}
+
+/* ========================= End ========================= */
+
+/* ******************************* Team ******************************* */
+
+.team {
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.team h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.team .team-p {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.peoples {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.peoples .people-1,
+.people-2,
+.people-3 {
+  border: 2px solid rgb(200, 196, 196);
+  transition: all ease 0.9s;
+}
+
+.people-1 .pics,
+.people-2 .pics,
+.people-3 .pics {
+  padding: 10px;
+}
+
+.people-1-name h2,
+.people-2-name h2,
+.people-3-name h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.people-1-name p,
+.people-2-name p,
+.people-3-name p {
+  font-size: 18px;
+  text-align: center;
+  color: cadetblue;
+}
+
+.people-1:hover,
+.people-2:hover,
+.people-3:hover {
+  background-color: var(--main-color);
+  color: #f8f9fa;
+}
+
+.people-1 svg:hover,
+.people-2 svg:hover,
+.people-3 svg:hover {
+  color: var(--text-color);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 10px;
+  border: 20x solid red;
+  padding: 20px;
+}
+
+.icons svg {
+  margin: 4px;
+}
+
+/* ========================= End ========================= */
+
+/* ******************************* testimonials ******************************* */
+
+
+
+
+
+.testimonials-part{
+ margin-top: 60px;
+}
+
+
+.testimonials{
+  width: 100%;
+  height: 90px;
+  height: 98vh;
+ text-align: center;
+ background-color: var(--main-color);
+ color: white;
+ 
+
+
+
+}
+
+
+
+
+.testimonials h1{
+  padding: 70px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+
+
+
+
+
+
+.testimonials p{
+  width: 60%;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+/* ************************** */
+
+
+@keyframes text-change {
+  0% {
+     
+  content: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.";
+}
+50% {
+  
+  content: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.";
+}
+100% {
+  
+  content: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.";
+}
+
+}
+
+.testimonials p::before {
+animation: text-change 10s infinite;
+content: "";
+}
+
+
+
+
+
+
+/* ========================= End ========================= */
+
+
+
+
+/* ******************************* Contact ******************************* */
+
+form {
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+form h1 {
+  text-align: center;
+
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 46px;
+}
+
+.contact-sides {
+  width: 100%;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+form button {
+  border: 2px solid var(--main-color);
+  padding: 6px 28px;
+  border-radius: 20px;
+  color: var(--main-color);
+  margin: 20px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all ease 0.5s;
+}
+
+form button:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+form .name,
+form .number {
+  width: 50%;
+  padding: 16px;
+  border: 1px solid var(--main-color);
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+form input {
+  border: none;
+}
+
+form .email,
+form .subject {
+  width: 45%;
+  padding: 16px;
+  border: 1px solid var(--main-color);
+}
+
+form .message {
+  padding: 16px;
+  border: 1px solid var(--main-color);
+  width: 97%;
+}
+
+/* ========================= End ========================= */
+
+/* ******************************* Footer ******************************* */
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+
+  background-color: #ecebea;
+}
+
+.footer-part {
+  padding-top: 30px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-contact {
+  margin: 10px;
+}
+
+.footer-contact .address h1,
+.footer-contact .phone h1,
+.footer-contact .email h1 {
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+
+.footer-contact .address,
+.footer-contact .phone,
+.footer-contact .email {
+  padding: 0 0 4px;
+  color: #666666;
+}
+
+.footer-contact .address svg,
+.footer-contact .phone svg,
+.footer-contact .email svg {
+  display: inline-block;
+}
+
+
+
+/* ****************************** */
+
+.footer-services {
+  color: #666666;
+}
+
+.footer-services h1 {
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+
+/* **************************** */
+
+.footer-link h1 {
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+
+.footer-link svg {
+  display: inline-block;
+  padding-top: 2px;
+  gap: 50px;
+  padding: 6px;
+  border: 2px solid;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all ease 0.5s;
+}
+
+.footer-link svg:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+
+/* ========================= End ========================= */
+
+
+
+.responsive-navbar{
+  display: none;
+}
+
+
+
+
+
+  /* ************* Responsvie (Mobile S 320px)  <=>  (Mobile L 425px) ************* */
+
+
+
+@media (max-width:425px){
+
+
+
+  /* ******************** navbar ******************** */
+
+  nav{
+    display: none;
+
+  }
+
+
+
+  .responsive-navbar{
+
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+  
+  }
+
+
+
+
+  .responsive-logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+
+
+
+  /* ============ end navbar ============ */
+
+  /* ******************** header ******************** */
+
+  header{
+    display: none;
+  }
+
+
+  .responsive-header{
+    background-color: #f8f9fa;
+    display: block;
+    height: auto;
+  }
+
+  .responsive-header-left{
+    padding-top: 20px;
+  }
+
+  .responsive-header-left img {
+    max-width: 100%;
+    margin: auto;
+    border-radius: 50%;
+    border:2px solid var(--main-color);
+    transition: all ease 0.5s;
+  
+   
+}
+
+.responsive-header-left img:hover{
+  border: 2px solid white;
+  background-color: var(--main-color);
+}
+
+.responsive-right{
+  padding: 10px 30px;
+
+}
+
+.responsive-right h1{
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+  
+
+}
+
+.responsive-right h1 span{
+  color: var(--main-color);
+  font-weight: 700;
+
+}
+
+.responsive-right p{
+  font-size: 16px;
+  word-spacing: 4px;
+  letter-spacing: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
+
+.responsive-right button {
+  border: 2px solid var(--main-color);
+  padding: 4px 20px;
+  border-radius: 20px;
+  color: var(--main-color);
+  margin: 14px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all ease 0.5s;
+}
+
+.responsive-right button:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+
+
+
+ /* ============ end header ============ */
+
+  /* ******************** Service ******************** */
+
+
+
+   .services-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+   
+
+  
+
+ .services h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 46px;
+  font-weight: 600;
+
+} 
+
+
+
+.services-left{
+  flex-direction: column;
+  width: 95%;
+}
+
+
+
+.services-contant-ui_ux ,
+.services-contant-design ,
+.services-contant-web-development ,
+.services-contant-web-design{
+  
+padding: 10px;
+height: auto;
+}
+
+  
+  
+
+.services-right{
+  flex-direction: column;
+  width: 95%;
+}
+
+
+
+ /* ============ end Service ============ */
+
+  /* ******************** Project ******************** */
+
+
+
+.project h1{
+  padding: 46px;
+}
+
+.line-1 ,
+.line-2 ,
+.line-3{
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+
+
+ /* ============ end project ============ */
+
+  /* ******************** Team ******************** */
+
+
+  .team{
+    padding-top: 24px;
+  }
+
+
+
+
+  .team .team-p{
+    font-size: 14px;
+  }
+
+  .peoples{
+    flex-direction: column;
+    gap: 22px;
+  }
+
+
+
+
+   /* ============ end team ============ */
+
+  /* ******************** Testimoials ******************** */
+
+
+
+  .testimonials p{
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .testimonials{
+    height: auto;
+  }
+
+
+  .testimonials h1{
+    padding: 36px;
+    font-size: 48px;
+  }
+
+
+
+  
+   /* ============ end Testimoials  ============ */
+
+  /* ******************** Contact ******************** */
+
+
+form h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 38px;
+  color: var(--text-color);
+}
+
+
+form {
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+form .name,
+form .number ,
+form .email ,
+form .subject{
+  width: 93%;
+  padding: 16px;
+  border: 1px solid var(--main-color);
+  margin-right: 0px;
+  margin-bottom: 6px;
+}
+
+
+  
+   /* ============ end Contact  ============ */
+
+  /* ******************** Footer ******************** */
+
+
+
+
+.footer-part {
+  padding-top: 3px;
+  padding-left: 14px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer-link h1{
+  padding-top: 16px;
+}
+
+
+
+}
+
+
+
+
+  /* ************* Responsvie (Mobile L 425px   +++++++++) ************* */
+
+
+@media (min-width:426px){
+
+  
+   
+
+  /* ******************** Header ******************** */
+
+
+  .header-right {
+    width: 50%;
+  
+    padding-left: 100px;
+}
+
+  .header-right img {
+
+     max-width: 70%;;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+   
+}
+
+
+.header-right img:hover{
+  border: 5px double  var(--main-color);
+}
+
+
+ /* ============ end header  ============ */
+
+  /* ******************** Service ******************** */
+
+
+
+.services-contant-ui_ux ,
+.services-contant-design ,
+.services-contant-web-development ,
+.services-contant-web-design{
+  
+padding: 40px;
+height: auto;
+}
+
+
+.services-contant-web-development ,
+.services-contant-web-design{
+  padding: 40px;
+}
+
+
+    
+   /* ============ end service  ============ */
+
+  /* ********************  Project ******************** */
+
+
+
+.projects-parts{
+  background-color: #ecebea;
+  border: 2px solid rgb(212, 211, 209);
+  border-radius: 40px;
+ padding: 20px;
+
+}
+
+.line-1, .line-2, .line-3 {
+  
+  gap: 6px;
+  padding: 10px 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* ========================= End ========================= */
+
+
+
+
+
+
+
+
+
+
