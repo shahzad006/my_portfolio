@@ -24,7 +24,7 @@ export default function Services(){
 
 <div className="services-contant-design">
   <h2><b>Brand & Logo Design</b></h2>
-  <p>A logo is a visual mark that represents a company or brand. It's often the first thing customers see and remember about a brand. A logo can be a simple wordmark, a graphic symbol or a combination of both. Branding is the process of creating a unique identity for a company or brand.</p>
+  <p>A logo is a visual mark that represents a company or brand. It is often the first thing customers see and remember about a brand. A logo can be a simple wordmark, a graphic symbol or a combination of both. Branding is the process of creating a unique identity for a company or brand.</p>
 </div>
 
 </div>
@@ -46,7 +46,7 @@ export default function Services(){
 <div className="services-contant-web-design">
 
 <h2><b>Web Design</b></h2>
-<p>Web design is the process of creating a website's visual aspects, such as its layout, text, images, and navigation. It's a combination of aesthetics, functionality, and user experience (UX) to create an attractive, informative, and engaging website</p>
+<p>Web design is the process of creating a website is visual aspects, such as its layout, text, images, and navigation. It is a combination of aesthetics, functionality, and user experience (UX) to create an attractive, informative, and engaging website</p>
 
 </div>
 
