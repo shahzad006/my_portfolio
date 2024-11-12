@@ -13,8 +13,8 @@ export default function Header(){
                <header>
 
 <div className="header-left">
-  <h1>I'm <span>M Shahzad</span></h1>
-  <p>I'm Web Developer</p>
+  <h1>I am <span>M Shahzad</span></h1>
+  <p>I am Web Developer</p>
   <button><Link href={"#project"}></Link> Portfolio</button>
 </div>
 
@@ -53,8 +53,8 @@ export default function Header(){
 
 
 <div className="responsive-right">
-  <h1>I'm <span>M Shahzad</span></h1>
-  <p>I'm Web Developer</p>
+  <h1>I am <span>M Shahzad</span></h1>
+  <p>I am Web Developer</p>
   <button><Link href={"#project"}></Link> Portfolio</button>
 </div>
 
